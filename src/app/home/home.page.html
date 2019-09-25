@@ -1,0 +1,67 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>
+      Ionic Bug Report
+    </ion-title>
+  </ion-toolbar>
+</ion-header>
+
+<ion-content>
+  <div class="ion-padding">
+    <ion-slides pager="true">
+      <ion-slide>
+        <ion-list>
+          <ion-item>
+            <ion-label class="ion-text-wrap">
+              Ionic <i>ion-input</i> elements correctly display the cursor on slide #1
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">
+              Input works:
+            </ion-label>
+            <ion-input placeholder="receives focus and displays cursor...">
+            </ion-input>
+          </ion-item>
+          <ion-item>
+            <ion-label>
+              <i>goto the next slide ></i>
+            </ion-label>
+          </ion-item>
+        </ion-list>
+      </ion-slide>
+      <ion-slide>
+        <ion-list>
+          <ion-item>
+            <ion-label class="ion-text-wrap">
+              Ionic <i>ion-input</i> elements do not display the cursor in all slides past the first slide
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">
+              Input doesn't work:
+            </ion-label>
+            <ion-input placeholder="receives focus but does not show cursor...">
+            </ion-input>
+          </ion-item>
+        </ion-list>
+      </ion-slide>
+      <ion-slide>
+        <ion-list>
+          <ion-item>
+            <ion-label class="ion-text-wrap">
+              Ionic <i>ion-input</i> elements do not display the cursor in all slides past the first slide
+            </ion-label>
+          </ion-item>
+          <ion-item>
+            <ion-label position="stacked">
+              Input doesn't work:
+            </ion-label>
+            <ion-input placeholder="receives focus but does not show cursor...">
+            </ion-input>
+          </ion-item>
+        </ion-list>
+      </ion-slide>
+    </ion-slides>
+  </div>
+</ion-content>

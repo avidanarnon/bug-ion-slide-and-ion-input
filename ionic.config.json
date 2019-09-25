@@ -1,0 +1,7 @@
+{
+  "name": "bug-ion-slide-and-ion-input",
+  "integrations": {
+    "cordova": {}
+  },
+  "type": "angular"
+}
